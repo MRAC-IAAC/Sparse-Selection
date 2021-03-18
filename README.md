@@ -9,6 +9,8 @@ Digitization and new technologies give us the opportunity to bring back some arc
 
 ![Process Pipeline](https://github.com/MRAC-IAAC/Sparse-Selection/blob/main/docs/210310_software-ii_final.jpg?raw=true)
 
+Image: Process Pipeline
+
 #### 2. Drone Controller
 
 The autonomous flight is achieved with a set of open-source software libraries and tools within the ROS framework. The following repositories were investigated during this project:
@@ -31,7 +33,11 @@ git clone https://github.com/MRAC-IAAC/bebop_control
 
 ![Process Pipeline](https://github.com/MRAC-IAAC/Sparse-Selection/blob/main/docs/orb_slam_730p.gif?raw=true)
 
+Gif: Orb Slam test
+
 ![Process Pipeline](https://github.com/MRAC-IAAC/Sparse-Selection/blob/main/docs/autonomous_flight_730p.gif?raw=true)
+
+Gif: Autonomus Flight Test
 
 #### 4. Image Capturing
 
@@ -39,9 +45,15 @@ The idea is to check the image overlap of each frame that is captured from the d
 
 ![Process Pipeline](https://github.com/MRAC-IAAC/Sparse-Selection/blob/main/docs/image_processing.jpg?raw=true)
 
+Image: Image processing
+
 ![Process Pipeline](https://github.com/MRAC-IAAC/Sparse-Selection/blob/main/docs/final_process_pipeline.jpg?raw=true)
 
+Image: Final Process Pipeline
+
 ![Process Pipeline](https://github.com/MRAC-IAAC/Sparse-Selection/blob/main/docs/opencv_image-selection.gif?raw=true)
+
+Gif: Image Selection
 
 #### 5. Post-Process: Image Selection
 
@@ -56,6 +68,8 @@ For point cloud creation it is recommended to have at least 60 – 70% image ove
 Finally, the extracted images can be used to finally generate the point cloud. By extracting only the necessary images, the process of point-cloud creation can be more efficient due to the fact of not using a vast amount of images which maybe cannot be calculated, or eventually, increase the time to calculate.
 
 ![Process Pipeline](https://github.com/MRAC-IAAC/Sparse-Selection/blob/main/docs/point_cloud_creation.gif?raw=true)
+
+Gif: Spare Point Cloud - Dense Point Cloud - Mesh Point Cloud
 
 #### 7. Instruction
 
