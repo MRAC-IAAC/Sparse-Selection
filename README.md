@@ -39,7 +39,7 @@ Gif: Orb Slam test
 
 Gif: Autonomus Flight Test
 
-#### 4. Image Capturing
+#### 4. Image Capturing [file.py](https://github.com/MRAC-IAAC/Sparse-Selection/blob/main/src/Python/video_extract.py)
 
 The idea is to check the image overlap of each frame that is captured from the drone’s onboard camera and check each of those with the following for the perfect overlap to have only the necessary amount of data for the final point-cloud which will be generated in a post-process.
 
@@ -55,7 +55,7 @@ Image: Final Process Pipeline
 
 Gif: Image Selection
 
-#### 5. Post-Process: Image Selection
+#### 5. Post-Process: Image Selection [file.py](https://github.com/MRAC-IAAC/Sparse-Selection/blob/main/src/Python/multi_images_overlap.py)
 
 Data storage becomes more and more excessive. To keep the data for the point cloud creation as low as possible, our script tries to isolate only the necessary and high-quality images instead of an unregulated amount of data.
 
@@ -77,7 +77,7 @@ For the instruction to drone Parrot Bebop 2 autonomus flight, please read this [
 
 #### 8. Folders src & docs
 
-In these folders, you will find several scripts and Grasshopper file to create the Flight path and Point cloud generation and Teleop Keyboard for Drone Parrot Bebop 2 
+In these folders, you will find several scripts and Grasshopper file to create the Flight path and Point cloud generation and Teleop Keyboard [file.py](https://github.com/MRAC-IAAC/Sparse-Selection/blob/main/src/Python/teleop_twist_keyboard.py) for Drone Parrot Bebop 2 
 
 #### 9. Credits
 Sparse-Selection // Software II is a project of IAAC, Institute for Advanced Architecture of Catalonia developed at the Master in Robotics and Advanced Construction in 2020/2021 by:
